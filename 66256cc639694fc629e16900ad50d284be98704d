@@ -1,0 +1,7 @@
+a_n = (p_n**{a_(n-1)} + n) % q_n
+ - p_n: The nth prime number. Used to introduce mathematical unpredictability and complexity.
+ - a_(n−1): The previous term in the sequence. Acts as the exponent in the formula, linking each term to its predecessor.
+ - n_n: The current position in the sequence. Added to the exponential result to ensure distinctiveness of each term.
+ - q_n: Calculated as the nth prime number plus a constant c. Used in the modulo operation to keep the sequence within a manageable range and enhance variability.
+ - c: is 10 in our operation since we had 10 experiments on this day
+ - a_0: was 42 since I liked it
